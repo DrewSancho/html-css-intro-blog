@@ -1,3 +1,11 @@
+body {
+	font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans';
+}
+
 .header {
 	height: 300px;
 	width:	100%;
@@ -44,7 +52,7 @@
 	position: relative;
 	float: left;
 	width: 15%;
-	margin: 10px 10%;
+	margin: 10px 5%;
 
 }
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
@@ -54,69 +62,80 @@
 	font-size: 16px;
 }
 .search input {
-	background-color: #fcfcfc;
-	box-shadow: 0 0 3px #ccc, 0 10 15px #ebebeb inset;
+	background-color: #fff;
+	border-radius: 5px;
 }
 .search .fa-search {
 	position: absolute;
 	left: 90%;
-	top: 4px;
+	bottom: 4px;
+	color: #e2e1df;
 }
 .h2 {
 	font-size: 18px;
-	font-style: italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: lowercase;
 }
 .fixed {
 	position: fixed;
 	top: 80%;
-	left: 80%;
-	height: 50px;
-	width: 150px;
+	left: 70%;
+	height: 120px;
+	width: 300px;
 	display: inline block;
 	border: 1px solid #ddd;
 	float: left;
 	border-color: #eee #ddd #bbb;
 	margin-right: 20px;
 	z-index: 0;
+	border-radius: 5px;
+	border-right: none;
 }
 .upperbox {
+	font-family: sans-serif;
 	font-size: 12px;
+	font-weight: bold;
 	vertical-align: top;
 	margin:0 auto;
 	padding: 0;
 }
 
 .little {
-	height: 32px;
-	width: 32px;
+	height: 64px;
+	width: 64px;
 	box-sizing: border-box;
-	margin: 0px;
+	margin: 3px;
 }
 .follow {
 	vertical-align: top;
-	height: 10px;
-	width: 15px;
-	margin: 0;
+	height: 40px;
+	width: 75px;
+	margin: 15px 0 0;
 	padding: 0;
-	float: right;
 }
-.button {
+.fa-times {
 	margin:0;
 	padding: 0;
 	position: relative;
 	top: 0;
-	right: -38px;
+	right: -180px;
+	background-color: #fff
 }
 
 .user-info {
-	font-size: 0.66em;
+	font-size: 14px;
+	margin: 15px 0 0 0;
 	vertical-align: top;
-	margin: 4px 0 0 0;
 	padding: 0;
 	display: inline-block;
 	list-style-type: none;
 }
 .fixed-content {
-	margin-top: 2px;
+	margin-top: 4px;
 	border-top: 1px #ccc solid;
+	padding-top: 10px;
+}
+.a {
+	color: #bac0c7;
 }
