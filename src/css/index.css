@@ -10,6 +10,7 @@
 	background-image: url("../../images/cbusatnight.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: scroll;
 }
 .logo {
 	position: absolute;
@@ -56,7 +57,7 @@
 }
 .search .fa-search {
 	position: absolute;
-	right: -40px;
+	left: 88%;
 	top: 4px;
 }
 .h2 {
