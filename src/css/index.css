@@ -9,8 +9,8 @@
 	height: 300px;
 	background-image: url("../../images/cbusatnight.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: scroll;
+	background-size: contain;
+	background-size: 100% 100%;
 }
 .logo {
 	position: absolute;
@@ -19,6 +19,7 @@
 }
 .img-circle {
 	border-radius: 50%;
+	border: 2px solid #fff;
 }
 .content {
 	font-size: 12px;
@@ -40,14 +41,15 @@
 	max-height: 100%;
 }
 .nav {
+	position: relative;
 	float: left;
 	width: 15%;
-	box-sizing: border-box;
 	margin: 10px 10%;
+
 }
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 .search {
-	position: relative;
+	position: absolute;
 	content: #aaa;
 	font-size: 16px;
 }
@@ -57,11 +59,12 @@
 }
 .search .fa-search {
 	position: absolute;
-	left: 88%;
+	left: 90%;
 	top: 4px;
 }
 .h2 {
 	font-size: 18px;
+	font-style: italic;
 }
 .fixed {
 	position: fixed;
@@ -76,10 +79,44 @@
 	margin-right: 20px;
 	z-index: 0;
 }
-.twitter {
-	background-image: url("../../images/twitter1.png");
-	background-repeat: no-repeat;
-	background-size: 150px 50px, contain;
-	z-index: 2;
+.upperbox {
+	font-size: 12px;
+	vertical-align: top;
+	margin:0 auto;
+	padding: 0;
+}
+
+.little {
+	height: 32px;
+	width: 32px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+.follow {
+	vertical-align: top;
+	height: 10px;
+	width: 15px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.button {
+	margin:0;
+	padding: 0;
 	position: relative;
+	top: 0;
+	right: -38px;
+}
+
+.user-info {
+	font-size: 0.66em;
+	vertical-align: top;
+	margin: 4px 0 0 0;
+	padding: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+.fixed-content {
+	margin-top: 2px;
+	border-top: 1px #ccc solid;
 }
